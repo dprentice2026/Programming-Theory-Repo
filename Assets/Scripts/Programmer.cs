@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Programmer : MonoBehaviour
 {
+    // Base class demonstrating Encapsulation and a virtual Work() method for Polymorphism.
+
     // Encapsulation
     private int energy = 100;
     private int tasksCompleted = 0;

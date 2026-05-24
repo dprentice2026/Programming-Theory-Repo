@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class OfficeManager : MonoBehaviour
 {
+    // Manager class that holds a list of Programmer objects and calls their Work() methods.
+    // Demonstrates Polymorphism by treating all programmers as the base type.
+
     public Programmer[] programmers;
 
     void Start()

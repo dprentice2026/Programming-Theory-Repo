@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class JuniorProgrammer : Programmer
 {
+    // Derived class inheriting from Programmer and overriding Work() to demonstrate Polymorphism.
+
     public override void Work()
     {
         Energy -= 15; // Junior loses energy faster
