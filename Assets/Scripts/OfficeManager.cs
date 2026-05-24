@@ -14,6 +14,8 @@ public class OfficeManager : MonoBehaviour
 
     public void AssignTasks()
     {
+        // ABSTRACTION
+
         foreach (Programmer p in programmers)
         {
             p.Work();   // Polymorphism happens here
